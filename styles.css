@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #e3edf7;
+}
+h1{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: 4px;
+    padding: 200px 0 100px;
+    text-align: center;
+    color: #555;
+}
+.social-media{
+    display: flex;
+    justify-content: center
+}
+a{
+    display: flex;
+    height: 75px;
+    width: 75px;
+    background:#e3edf7 ;
+    margin: 0 15px;
+    border-radius: 8px;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    box-shadow: 6px 6px 10px -1px rgb(0,0,0,0.15),
+                -6px -6px 10px -1px rgb(255,255,255,0.7);
+    border:1px solid rgba(0,0,0,0);
+    transition: transform 0.5s;
+}
+a i{
+    font-size: 35px;
+    color: gray;
+    transition: transform 0.5s;
+}
+a:hover{
+    box-shadow: inset 4px 4px 6px -1px rgb(0,0,0,0.15),
+     inset -4px -4px 6px -1px rgb(255,255,255,0.7);
+     border:1px solid rgba(0,0,0,0.1);
+    transform: translateY(2px);
+}
+a:hover i{
+    transform: scale(0.90);
+}
+a:hover .fa-facebook{
+    color: rgba(6, 6, 192, 0.822);
+}
+a:hover .fa-twitter{
+    color: rgba(20, 89, 236, 0.822);
+}
+a:hover .fa-whatsapp{
+    color: rgba(15, 235, 70, 0.945);
+}
+a:hover .fa-instagram{
+    color: #f14843;
+}
+a:hover .fa-youtube{
+    color: rgb(250, 14, 14);
+}
